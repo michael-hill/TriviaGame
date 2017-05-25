@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+    <title>Dog Trivia</title>
+</head>
+
+<body background="assets/images/pup.jpg">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Dog Trivia</h1>
+            <br>
+            <button type="button" class="btn btn-default btn-lg start">Play Game!</button>
+        </div>
+        <div id="main-content">
+            <h3 id="counter">Seconds Remaining: </h3>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Dogs are better than cats: </h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="radio" name="q1" value="right"> YES!!!
+                        <br>
+                        <input type="radio" name="q1" value="wrong"> No!!!
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Dogs like cats: </h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="radio" name="q2" value="wrong"> True
+                        <br>
+                        <input type="radio" name="q2" value="right"> False
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Dogs favorite time of day: </h3>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <input type="radio" name="q3" value="wrong"> Nap Time
+                        <br>
+                        <input type="radio" name="q3" value="right"> Treat Time
+                        <br>
+                        <input type="radio" name="q3" value="wrong"> Bath Time
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <div id="submit">
+                <button type="button" class="btn btn-default btn-lg">Submit!</button>
+            </div>
+</body>
+
+</html>
